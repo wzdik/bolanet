@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "989157903143",
+    "project_id": "aplikasijudibola69",
+    "storage_bucket": "aplikasijudibola69.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989157903143:android:97c765b84c4ff239203702",
+        "android_client_info": {
+          "package_name": "com.example.berkahbola69"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhalLGu_4UGuACRvLUhcGFIJoal6PnJIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989157903143:android:557e7c3ecba3d0f0203702",
+        "android_client_info": {
+          "package_name": "com.example.bolahebat76"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhalLGu_4UGuACRvLUhcGFIJoal6PnJIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989157903143:android:e2109ffce053e256203702",
+        "android_client_info": {
+          "package_name": "com.example.bolanet76"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhalLGu_4UGuACRvLUhcGFIJoal6PnJIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989157903143:android:72cf43bd8a74f391203702",
+        "android_client_info": {
+          "package_name": "com.example.hokibola69"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhalLGu_4UGuACRvLUhcGFIJoal6PnJIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

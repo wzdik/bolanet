@@ -1,0 +1,43 @@
+plugins {
+    id "com.android.application"
+    // START: FlutterFire Configuration
+    id 'com.google.gms.google-services'
+    // END: FlutterFire Configuration
+    id "kotlin-android"
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+android {
+    namespace = "com.example.bolanet76"
+    compileSdkVersion 34 // Tetapkan versi compile SDK secara eksplisit, misalnya versi 33
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8" // Gunakan "1.8" untuk nilai jvmTarget
+    }
+
+    defaultConfig {
+        applicationId "com.example.bolanet76"
+        minSdkVersion 23 // Tetapkan nilai minSdkVersion sesuai kebutuhan Firebase
+        targetSdkVersion 33 // Tetapkan target SDK versi yang sesuai
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            // Konfigurasi signing release sesuai kebutuhan Anda
+            signingConfig signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source "../.." // Tentukan path ke folder Flutter
+}
